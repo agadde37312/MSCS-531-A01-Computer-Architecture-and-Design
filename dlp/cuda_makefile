@@ -1,0 +1,5 @@
+all: cuda_matmul
+cuda_matmul: cuda_matmul.cu
+	nvcc -O3 cuda_matmul.cu -o cuda_matmul
+clean:
+	rm -f cuda_matmul

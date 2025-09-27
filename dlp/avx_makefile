@@ -1,0 +1,5 @@
+all: avx_add
+avx_add: avx_add.c
+	gcc -O3 -mavx -std=c11 avx_add.c -o avx_add
+clean:
+	rm -f avx_add
