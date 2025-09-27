@@ -1,0 +1,5 @@
+all: openmp_reduce
+openmp_reduce: openmp_reduce.c
+	gcc -O2 -fopenmp openmp_reduce.c -o openmp_reduce
+clean:
+	rm -f openmp_reduce
