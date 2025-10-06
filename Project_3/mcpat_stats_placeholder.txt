@@ -1,0 +1,5 @@
+# mcpat_stats_placeholder.txt
+Total Cores: 1
+Total Leakage Power: 0.45 W
+Total Dynamic Power: 1.23 W
+Energy per Instruction: 0.87 nJ
